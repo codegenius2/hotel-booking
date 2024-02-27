@@ -72,7 +72,7 @@ const FormReview: React.FC<TFormReview> = ({ idRoom }) => {
             </Form>
         ) : (
             <Message variant="info">
-                <Link to="/login">Sign in</Link> to write a review
+                <Link to="/login">Sign in</Link> to review
             </Message>
         )}
     </>
